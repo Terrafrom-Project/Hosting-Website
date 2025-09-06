@@ -21,13 +21,7 @@ jobs:
         with:
           terraform_version: 1.6.6   # Use any version you want
 
-      # Step 3: Configure Cloud Provider (example AWS)
-      - name: Configure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@v4
-        with:
-          aws-access-key-id: AKIA272C2PCUDJQFRKUJ
-          aws-secret-access-key: ppjXNSvmAqMenV9V+y2P33ZurlRxCSgWhKCrHdHI
-          aws-region: ap-south-1  # Your AWS region
+
 
       # Step 4: Terraform Init
       - name: Terraform Init
