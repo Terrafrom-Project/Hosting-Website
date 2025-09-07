@@ -21,8 +21,6 @@ jobs:
         with:
           terraform_version: 1.6.6   # Use any version you want
 
-
-
       # Step 4: Terraform Init
       - name: Terraform Init
         run: terraform init
